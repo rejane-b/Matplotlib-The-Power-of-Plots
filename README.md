@@ -1,9 +1,5 @@
 # Matplotlib - The Power of Plots
 
-## Instructions
-
-Your tasks are to do the following:
-
 * Before beginning the analysis, check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
 
 * Use the cleaned data for the remaining steps.
@@ -12,9 +8,7 @@ Your tasks are to do the following:
 
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study.
 
-  * **NOTE:** These plots should look identical.
-
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+ * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 
   * **NOTE:** These plots should look identical.
 
@@ -22,7 +16,7 @@ Your tasks are to do the following:
 
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
-  **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
+All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
 
 * Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
 
@@ -37,31 +31,5 @@ Here are some final considerations:
 * You must use proper labeling of your plots, to include properties such as: plot titles, axis labels, legend labels, _x_-axis and _y_-axis limits, etc.
 
 * See the [starter workbook](Pymaceuticals/pymaceuticals_starter.ipynb) for help on what modules to import and expected format of the notebook.
-
-## Hints and Considerations
-
-* Be warned: These are very challenging tasks. Be patient with yourself as you trudge through these problems. They will take time and there is no shame in fumbling along the way. Data visualization is equal parts exploration, equal parts resolution.
-
-* You have been provided a starter notebook. Use the code comments as a reminder of steps to follow as you complete the assignment.
-
-* Don't get bogged down in small details. Always focus on the big picture. If you can't figure out how to get a label to show up correctly, come back to it. Focus on getting the core skeleton of your notebook complete. You can always revisit old problems.
-
-* While you are trying to complete this assignment, feel encouraged to constantly refer to Stack Overflow and the Pandas documentation. These are needed tools in every data analyst's tool belt.
-
-* Remember, there are many ways to approach a data problem. The key is to break up your task into micro tasks. Try answering questions like:
-
-  * How does my DataFrame need to be structured for me to have the right _x_-axis and _y_-axis?
-
-  * How do I build a basic scatter plot?
-
-  * How do I add a label to that scatter plot?
-
-  * Where would the labels for that scatter plot come from?
-
-  Again, don't let the magnitude of a programming task scare you off. Ultimately, every programming problem boils down to a handful of bite-sized tasks.
-
-* Get help when you need it! There is never any shame in asking. But, as always, ask a _specific_ question. You'll never get a great answer to "I'm lost."
-
-### Copyright
 
 Trilogy Education Services © 2020. All Rights Reserved.
